@@ -1,0 +1,60 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ 
+ .information {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid rgb(18, 91, 122);
+   border-radius: 8px;
+   padding: 5%;
+ }
+ input{
+   width: 200px;
+   height: 20px;
+   font-size: 20px;
+   padding-left: 10px;
+   margin: 5px
+ }
+ #description{
+  width: 200px;
+   height: 50px;
+   font-size: 20px;
+   padding-left: 10px;
+   margin: 5px
+ }
+  
+ button{
+   width: 100px;
+   height: 20px;
+   margin-top: 15px;
+   background-color: rgb(213, 237, 248);
+ }
+ 
+ .information button:hover {
+   cursor: pointer;
+ }
+
+ .taks{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+ }
+
+ .task{
+  width: 700px;
+  height: 180px;
+  border: 1px solid black;
+  margin: 10px;
+ }
+
+ .task h3{
+  margin: 20px;
+
+ }
